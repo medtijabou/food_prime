@@ -398,6 +398,7 @@ footer ul a {
     transform: translate(-50%, -50%);
     animation: fadeOut 4s;
     opacity: 1;
+    visibility: hidden;
   }
   @keyframes fadeOut {
     0% {
