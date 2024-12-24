@@ -177,7 +177,7 @@ button:hover {
   padding-top: 30px;
 }
 
-h3 {
+h2 {
   padding: 9px 0 20px 9px;
 }
 
@@ -186,31 +186,13 @@ h3 {
   margin: auto;
 }
 
-.link-one {
+.link {
   display: flex;
   flex-direction: column;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
-.link-tow {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 20px;
-}
-
-.link-three {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 20px;
-}
-
-.link-for {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 50px;
-}
-
-h4 {
+h3 {
   font-size: 18px;
   padding: 10px 0 0 9px;
 }
@@ -239,8 +221,8 @@ h4 {
   color: #278870;
   font-weight: 500;
   position: absolute;
-  top: 3%;
-  left: 73%;
+  top: 20px;
+  right: 20px;
 }
 .restaurant-card p {
   padding-left: 10px;
@@ -254,7 +236,7 @@ h4 {
   bottom: 13%;
 }
 
-.logo-love-sytle {
+.fa {
   font-size: 20px;
   -webkit-text-stroke: white 1px;
   position: absolute;
@@ -267,7 +249,7 @@ h4 {
   -webkit-text-fill-color: transparent;
   transition: opacity 1s;
 }
-.logo-love-sytle:hover {
+.fa:hover {
   opacity: 1;
 }
 
@@ -275,7 +257,7 @@ footer {
   background: #353535;
   width: 100%;
 }
-footer h5 {
+footer h4 {
   font-family: "Shrikhand", cursive;
   font-weight: bold;
   font-style: italic;
@@ -345,21 +327,11 @@ footer ul a {
   .restaurant-card:hover {
     transform: scale(1.02);
   }
-  .link-one {
+  .link {
     padding-bottom: 30px;
     width: 47%;
   }
-  .link-tow {
-    width: 47%;
-  }
-  .link-three {
-    width: 47%;
-    padding-bottom: 30px;
-  }
-  .link-for {
-    width: 47%;
-  }
-  .logo-love-sytle i,
+  .fa i,
   .logo-love i {
     font-size: 30px;
   }
@@ -375,7 +347,7 @@ footer ul a {
     flex-direction: row-reverse;
     height: 100px;
   }
-  footer h5 {
+  footer h4 {
     width: auto;
     padding-right: 100px;
     padding-left: 50px;
@@ -438,8 +410,9 @@ footer ul a {
       transform: rotate(360deg);
     }
   }
-
-  
+  #page {
+    animation: content-appear 3.5s ease-in-out both;
+  }
   @keyframes content-appear {
     0% {
       opacity: 0;
@@ -450,8 +423,6 @@ footer ul a {
       transform: translateY(0);
     }
   }
- .main-container {
-    animation: content-appear 3.5s ease-in-out both;}
 }
 
 /*# sourceMappingURL=food_mobile.css.map */
