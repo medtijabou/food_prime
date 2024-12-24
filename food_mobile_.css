@@ -41,7 +41,7 @@ table {
   border-spacing: 0;
 }
 
-button, input, textarea, select {
+button, input, textarea, fonctionnement {
   font: inherit;
 }
 
@@ -115,14 +115,10 @@ button:hover {
   cursor: pointer;
 }
 
-.select {
+.fonctionnement {
   margin-top: 20px;
   background: #FFFFFF;
   padding-bottom: 40px;
-}
-
-.select h2 {
-  margin-left: 9px;
 }
 
 .fonction {
@@ -132,7 +128,7 @@ button:hover {
   row-gap: 15px;
 }
 
-.select-fonction {
+.fonctionnement-fonction {
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -148,14 +144,14 @@ button:hover {
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
 }
 
-.text-select {
+.text-fonctionnement {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
 
-.numbre-select {
+.numbre-fonctionnement {
   width: 24px;
   height: 24px;
   border: none;
@@ -312,12 +308,12 @@ footer ul a {
     margin: auto;
   }
   /**fonctionnement**/
-  .select {
+  .fonctionnement {
     display: flex;
     flex-direction: column;
     padding: 20px 10% 50px;
   }
-  .select h2 {
+  .fonctionnement h2 {
     font-size: 24px;
     padding: 9px;
   }
@@ -325,10 +321,10 @@ footer ul a {
     flex-direction: row;
     justify-content: space-between;
   }
-  .select-fonction {
+  .fonctionnement-fonction {
     width: 25%;
   }
-  .select-fonction:hover {
+  .fonctionnement-fonction:hover {
     background-color: #F5EDFF;
   }
   .food-restaurant {

@@ -21,7 +21,7 @@ $margin-bottom-title: 10px;
 $margin-left-title: 50px;
 $column-gap: 130px;  
 $container-width: 73%;  
-$food-titel-padding-left: 190px;  
+$food-title-padding-left: 190px;  
 $restaurant-card-width: 450px;  
 $logo-love-font-size: 30px;  
 $position-left: 86%;  
@@ -90,7 +90,7 @@ table {
 }
 
 // Réinitialiser les styles des éléments de formulaire
-button, input, textarea, select {
+button, input, textarea, fonctionnement {
   font: inherit;
 }
 
@@ -181,16 +181,14 @@ button {
 
 
 
-.select {
+.fonctionnement {
  
  margin-top: 20px;
   background: #FFFFFF;
  padding-bottom: 40px;
 }
 
-.select h2{
-  margin-left: 9px;
-}
+
 .fonction {
   display: flex;
   flex-direction: column;
@@ -198,7 +196,7 @@ button {
   row-gap: 15px;
 }
 
-.select-fonction {
+.fonctionnement-fonction {
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -215,7 +213,7 @@ button {
  
 }
 
-.text-select {
+.text-fonctionnement {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -223,7 +221,7 @@ button {
 
 }
 
-.numbre-select {
+.numbre-fonctionnement {
   width: 24px;
   height: 24px;
   border: none;
@@ -400,7 +398,7 @@ footer {
     margin: auto;
   }
 /**fonctionnement**/
-.select{
+.fonctionnement{
   display: flex;
   flex-direction: column;
   padding: 20px $padding-horizontal 50px ;
@@ -417,10 +415,10 @@ footer {
   justify-content: space-between;
 }
 
-.select-fonction {
+.fonctionnement-fonction {
   width: 25%; 
  }
- .select-fonction:hover{
+ .fonctionnement-fonction:hover{
   background-color: #F5EDFF;
  }
 
@@ -563,4 +561,4 @@ footer {
     transform: translateY(0);
   }
 }
-}  
+}
