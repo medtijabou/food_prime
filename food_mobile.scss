@@ -348,7 +348,7 @@ footer {
   background: $color-bg-footer;
   width: 100%;
 
-  h4 {
+.footer__title {
     font-family: $font-primary;
     font-weight: bold;
     font-style: italic;
@@ -456,7 +456,7 @@ footer {
   flex-direction: row-reverse;
   height: $footer-height;
 
-  h4 {
+  .footer__title{
     width: auto;
     padding-right: $footer-padding-right;
     padding-left: $footer-padding-left;

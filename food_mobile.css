@@ -257,7 +257,7 @@ footer {
   background: #353535;
   width: 100%;
 }
-footer h4 {
+footer .footer__title {
   font-family: "Shrikhand", cursive;
   font-weight: bold;
   font-style: italic;
@@ -347,7 +347,7 @@ footer ul a {
     flex-direction: row-reverse;
     height: 100px;
   }
-  footer h4 {
+  footer .footer__title {
     width: auto;
     padding-right: 100px;
     padding-left: 50px;
