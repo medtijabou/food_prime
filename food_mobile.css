@@ -263,7 +263,6 @@ footer .footer__title {
   font-style: italic;
   color: white;
   margin: auto;
-  padding-top: 10px;
   width: 90%;
   font-size: 18px;
 }
@@ -280,7 +279,7 @@ footer ul a {
 }
 
 /* Para pantallas medianas (tabletas) */
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
   .hero h1 {
     font-size: 40px;
   }
