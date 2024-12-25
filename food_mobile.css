@@ -169,7 +169,7 @@ button:hover {
   color: #9356DC;
 }
 
-.food-restaurant {
+.restaurant {
   background: #f6f6f6;
   font-size: 18px;
   display: flex;
@@ -190,6 +190,7 @@ h2 {
   display: flex;
   flex-direction: column;
   padding-bottom: 30px;
+  position: relative;
 }
 
 h3 {
@@ -202,7 +203,6 @@ h3 {
   flex-direction: column;
   background: #f6f6f6;
   height: 251px;
-  position: relative;
   border-radius: 15px;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
 }
@@ -229,19 +229,19 @@ h3 {
 }
 
 .logo-love i {
-  font-size: 20px;
+  font-size: 30px;
   -webkit-text-stroke: white 1px;
   position: absolute;
-  left: 86%;
-  bottom: 13%;
+  right: 20px;
+  bottom: 60px;
 }
 
 .fa {
-  font-size: 20px;
+  font-size: 30px;
   -webkit-text-stroke: white 1px;
   position: absolute;
-  left: 86%;
-  bottom: 11%;
+  right: 20px;
+  bottom: 60px;
   opacity: 0;
   display: inline-block;
   background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
@@ -251,6 +251,7 @@ h3 {
 }
 .fa:hover {
   opacity: 1;
+  cursor: pointer;
 }
 
 footer {
@@ -308,7 +309,7 @@ footer ul a {
   .fonctionnement-fonction:hover {
     background-color: #F5EDFF;
   }
-  .food-restaurant {
+  .restaurant {
     padding: 30px 9.6% 30px 10.6%;
   }
   .restaurant-card {
@@ -337,8 +338,8 @@ footer ul a {
   .logo-love i {
     -webkit-text-stroke: white 1px;
     position: absolute;
-    left: 86%;
-    bottom: 12%;
+    right: 20px;
+    bottom: 60px;
   }
   /***footer***/
   footer {
@@ -348,8 +349,7 @@ footer ul a {
   }
   footer .footer__title {
     width: auto;
-    padding-right: 100px;
-    padding-left: 50px;
+    padding: 0px 30px 0px 40px;
     font-size: 24px;
   }
   footer ul {
@@ -357,7 +357,6 @@ footer ul a {
     justify-content: end;
     gap: 30px;
   }
-  /***loeder***/
   .loader-container {
     position: fixed;
     left: 50%;
